@@ -11,11 +11,11 @@ operations on available car's data.
 Tasks:
 1) Create class implementing CarRental interface containing Map data structure to store available car's data
    (name <String> and price <Integer> per day).
-2) Implement getCars method returning all available cars.
+2) Implement getAllCars method returning all available cars.
 2) Implement addCar method to add new car to available car's pool.
 3) Implement sortByPrice method which should return all car's names sorted from lowest to highest price.
 4) Implement function getCarNamesWithPriceLowerThan, filtering available car's and returning only car name's
-   with maximum price per day lower or equal to given amount.
+   with price per day lower or equal to given amount.
 5) Implement countTotalPriceForCar function, taking car name and amount of day's as parameters and
    returning full price of given car for given amount of days.
  */
